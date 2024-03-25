@@ -16,12 +16,17 @@ Create a Project with name as you go with pipeline.
 Create a Declarative pipeline for automated the CICD flow all the stages mentioned on Jenkinsfile.
 
 Create a Dockerfile and Build the Docker image, Tag the Image and Push the Docker image into the DockerHub.
+![alt text](image-1.png)
+
+![alt text](image.png)
 
 Create the Docker Container form the Docker image and Expose it to 8081 port.
 
 Add the 8081 port to the Security group for  accessing the application from External Browser along with the Public Ip:8081.
 
 Here we get an nginx default page, because we are using the base image as Nginx in dockerfile.
+
+![alt text](image-2.png)
 
 
 
